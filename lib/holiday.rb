@@ -20,10 +20,7 @@ end
 
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
-   holiday_hash[season][holiday_name] = supply_array
-  holiday_hash
-end
-add_new_holiday_with_supplies(holiday_supplies, :fall, :succas, ["lulav", "esrog", "schach"])
+  
 
 end
 
