@@ -19,9 +19,8 @@ end
 
 
 
-def add_new_holiday_with_supplies(holiday_hash, season, 
-  holiday_hash[:all][:columbus_day] = supply_array
-  holiday_hash
+def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
+  holiday_hash[:fall][:thanksgiving].push(s)
 
 end
 
