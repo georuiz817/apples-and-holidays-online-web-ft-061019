@@ -14,7 +14,7 @@ end
 
 
 def add_supply_to_memorial_day(holiday_hash, supply)
-  holiday_hash[season][holiday_name] = supply_array
+  holiday_hash[:winter][:Christmas, :new_years] = supply_array
   holiday_hash
 end
 
